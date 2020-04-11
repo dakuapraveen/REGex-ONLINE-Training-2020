@@ -1,0 +1,23 @@
+
+	Assignment-1
+
+Q1 => What is JPython & CPython
+ans=> The default implementation of python programming language is Cpython. Cpython is written in C language. Cpython compiles the python source code in intermediate bytecode, which is executed by the Cpython virtual machine.Cpython provides the highest level of compatibility with python package and C extension.
+
+Jpython is an implimentation of python programming language that can run on the java platform. Jpython program use java classes instance of python module. Jpython compiles into java bytecode, which can then run by java virtual machine.
+
+Q2 => Basic difference between Python2 & python3
+ans=> python 3 default storing of string is Unicode whereas python 2 stores need define Unicode string you require to define them with "u", the syntex is simple and easily understanable but the syntex od python 2 was comparatively difficult to understand.
+
+Q3 => Difference between ASCII & unicode.
+ans=>              ASCII                                      UNICODE
+	. A character encoding for eletronic  . A computing industry standard for 
+	communication.                          consistent encoding, representation
+      						and handling of text expressed in
+						most of the worlds writing systems.
+	. Support t128 char		      . Support a wide range od char
+	. uses 7 bits to represent a char     . uses 8bit, 16bit or 32bit depending
+						on the encoding type.
+	. Requires less space		      . Requires more speace
+	. American Standard Code for	      . Stands for Universal Character Set 
+	  Information Interchange

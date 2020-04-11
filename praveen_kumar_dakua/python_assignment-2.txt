@@ -1,0 +1,33 @@
+		Assignment-2
+
+Q1 => What should be the output? ( 3 + 4 ** 6 - 9 * 10 / 2 ).
+ans=> 4054.0
+
+Q2 => Let say I have, some string "hello this side regex"
+      Find out the count of the total vowels
+	vowels - ['a','e','i','o','u']
+
+ams=>   str_="hello this side regex"
+	vowels = ['a','e','i','o','u']
+	count=[]
+	for i in str_:
+    	    if i in vowels:
+        	count.append(i)
+	print(len(count))
+
+Q3 => Find out the area of triangle
+      - 1/2 * b * h (formula of area)
+      - You have to take value from user about the base, & the height
+ans=>    
+        base = int(input("enter base of the triangle:"))
+	height = int(input("enter height of the triangle:"))
+	area = 1/2*base*height
+	print(area)
+
+Q4 => Print the calendar on the terminal. If you give the year.
+      - Allow the user to input the year.
+      - Then should that calendar of that year
+ans=>
+	inport calendar
+	print(calendar.calendar(int(input())))	
+	
